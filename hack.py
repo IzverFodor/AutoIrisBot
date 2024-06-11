@@ -11,7 +11,7 @@ class AutoIrisBotMod(loader.Module):
 
     strings = {"name": "AutoIrisBot"}
 
-    async def drochcmd(self, message):
+    async def fermacmd(self, message):
         """Включение автофермы. Выключение "Ферма стоп"."""
         self.set("ferma", True)
         while self.get("ferma"):
